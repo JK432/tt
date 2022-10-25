@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: black;
+
+}
+.mainheader{
+    background-image: url("assect/var1.jpg");
+    background-size: cover;
+    height: 105vh;
+    width: 100%;
+    font-family: 'Anton', sans-serif;
+    font-size: 10rem;
+    color: aliceblue;
+    line-height: 90%;
+    /* font-family: 'Antonio', sans-serif; */
+    padding-left: 20px;
+    padding-bottom: 5vh;
+    
+    /* margin-bottom: auto; */
+    display: inline-block;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.header{
+    width: max-content;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    display: inline-block;
+        align-self: flex-end;
+}
+.marquetext{
+    font-family: 'Antonio', sans-serif;
+    font-size: 2.5rem;
+    line-height: 90%;
+    
+    
+}
+
+.topnav {
+position: -webkit-sticky;
+display: flex;
+position: sticky;
+
+/* justify-content: flex-end; */
+    top: 0;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(98, 96, 96, 0.481), rgb(0, 0, 0));
+    font-family: 'Antonio', sans-serif;
+}
+
+.topnav a {
+    /* display: block; */
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #dc7311;
+    color: white;
+}
+.home{
+    height: 100vh ;
+    background-color: black;
+}
