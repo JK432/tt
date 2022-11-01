@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: black;
+
+}
+.mainheader{
+    background-image: url("assect/var1.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Anton', sans-serif;
+    font-size: 10rem;
+    color: aliceblue;
+    line-height: 90%;
+    /* font-family: 'Antonio', sans-serif; */
+    padding-left: 20px;
+    padding-bottom: 5vh;
+    
+    /* margin-bottom: auto; */
+    display: inline-block;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.header{
+    width: max-content;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    display: inline-block;
+        align-self: flex-end;
+}
+.marquetext{
+    font-family: 'Antonio', sans-serif;
+    font-size: 2.5rem;
+    line-height: 90%;
+    
+    
+}
+
+.topnav {
+position: -webkit-sticky;
+display: flex;
+position: sticky;
+
+/* justify-content: flex-end; */
+    top: 0;
+    overflow: hidden;
+    /* background-image: linear-gradient(rgb(98, 96, 96), rgb(0, 0, 0)); */
+    background-color: black;
+    font-family: 'Antonio', sans-serif;
+}
+
+.topnav a {
+    /* display: block; */
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #dc7311;
+    color: white;
+}
+.home{
+    /* height:  calc(100vh - 80px) ; */
+    background-color: black;
+}
+.homecont{
+    background-color: rgba(250, 235, 215, 0.63);
+    border-radius: 10px;
+   margin-top:20px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+    font-family: 'Antonio', sans-serif;
+    font-size: x-large;
+    padding: 20px;
+
+}
+.home{
+    display: flex;
+}
+.map{
+    height: 100px;
+    padding-top: 20px;
+    border-radius: 20px;
+    /* height: fit-content; */
+    padding-right: 20px;
+
+    
+}
+.image{
+    height: calc(100vh - 80px);
+    border-radius: 10px;
+    /* margin-bottom:40px ; */
+    padding-bottom: 40px
+}
+.fest{
+background-color: rgba(255, 228, 196, 0.605);
+height: fit-content;
+border-radius: 10px;
+padding: 10px;
+margin: 10px;
+margin-top: 30px;
+    font-family: 'Antonio', sans-serif;
+    font-size:3rem;
+
+}
+.disc{
+    font-family: 'Antonio', sans-serif;
+        font-size: x-large;
+}
+.festimg{
+    border-radius: 10px;
+    width: calc(100vw - 50px);
+    height:fit-content;
+    /* background-image: url("assect/var6.jpg"); */
+    background-repeat:no-repeat ;
+    /* background-size: contain; */
+}
+.form{
+    color: #ddd;
+        font-family: 'Antonio', sans-serif;
+            font-size: 3rem;
+            padding: 60px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Antonio', sans-serif;
+    font-size: 1.3rem;
+    border-radius: 5px;
+}
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    font-family: 'Antonio', sans-serif;
+    font-size: 1.3rem;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    align-content: flex-end;
+    background-color: #aa6804;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin-top: 50px;
+    text-decoration: none;
+   
+    cursor: pointer;
+    font-family: 'Antonio', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+.card {
+    flex-wrap: wrap;
+    background-color: #aa6804;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Antonio', sans-serif;
+    font-size: 1.3rem;
+    padding: 10px;
+    border-radius: 10px;
+    color: antiquewhite;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(212, 212, 212, 0.2);
+  }
+  
+  .cardcontainer {
+    padding: 2px 16px;
+  }
+
+  .hotelmain{
+    display: block;
+  }
