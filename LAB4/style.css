@@ -1,0 +1,11 @@
+#screen{
+    width: 205px;
+    height: 30px;
+    border: 0.2em;
+    border-color: black;
+    border-style: groove;
+}
+.inbut{
+width: 50px;
+
+}
