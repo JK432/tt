@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include("partials/headtag")%>
+<body>
+    <%- include("partials/head")%>
+    <h1 class="title">Books page</h1>
+    <p><%=desc%></p>
+    <%if(books.length>0){%>
+      
+        <h1>Books found</h1>
+    <%} else{%>
+        <h2>Sorry!</h2>
+        <h1>No Books found</h1>
+        <%}%>
+    <%- include("partials/foot")%>
+</body>
+</html>
