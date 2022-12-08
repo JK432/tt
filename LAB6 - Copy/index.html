@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <br>
+    <h1>User Registration</h1>
+    <br>
+    <h3>Please compleate the following form to register with oru site :</h3>
+    <br>
+    <form action="index.html" d="post" ;>
+
+        <Label for="name1">User Name:</Label>
+        <Input type="text" width="20" id="name1"></Input>
+        <br><br>
+        <Label for="pass1">Password:</Label>
+        <Input type="password" width="20" id="pass1"></Input>
+        <br><br>
+        <label for="cars">Select a package :</label>
+        <select id="cars">
+            <option value="volvo">1 Year(1900)</option>
+            <option value="saab">10 Year(1500)</option>
+            <option value="opel">6 Months(700)</option>
+            <option value="audi">1 Month(200)</option>
+        </select>
+        <br><br>
+        <label for="vehicle3"> Check to agree the T&C:</label>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <br>
+        <br>
+        <input type="submit" value="Register now" onclick="()=>{
+             const username = document
+                    .querySelector('#name1').value;
+ 
+                const password = document
+                    .querySelector('#pass1').value;
+                    fetch('/search',{
+                        method:POST,
+                        body:JSON.stringify({
+                        username,
+                        password,
+                    }),
+
+                    })
+        }">
+
+    </form>
+</body>
+
+</html>
