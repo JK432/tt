@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+</head>
+<body>
+    <h1>Search</h1><br><br>
+    <form method="post" action="">
+        <Label for="name">User Name:</Label>
+        <Input type="text" width="20" id="name" name="name"></Input>
+        <br><br>
+        <Label for="pass">Password:</Label>
+        <Input type="password" width="20" id="pass" name="password"></Input>
+        <Input type="text" width="20" id="pass" name="issearch" value="true" style="display: none;"></Input>
+        <br><br><input type="submit" value="Search"id="search">        
+
+    </form>
+    <br><br>
+    <% if(result=="true"){ %>
+
+        <table id="details" border="1">
+            <tr>
+                <th>Name</th>
+                <th>Package</th>
+            </tr>
+            <tr><td><%=name%></td><td>
+                <%=package%>
+            </td></tr>
+        </table>
+
+    <%}else{%>
+        <div><%=result%></div>
+    <%}%>
+ 
+   </body>
+
+
+</html>
+
+

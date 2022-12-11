@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <br>
+    <h1>User Registration</h1>
+    <br>
+    <h3>Please compleate the following form to register with oru site :</h3>
+    <br>
+    <form method="post" action="/search">
+
+<Label for="name">User Name:</Label>
+<Input type="text" width="20" id="name" name="name"></Input>
+<br><br>
+<Label for="pass">Password:</Label>
+<Input type="password" width="20" id="pass" name="pass"></Input>
+<br><br>
+<label for="package">Select a package :</label>
+
+<select id="package" name="package">
+  <option value="1y">1 Year(1900)</option>
+  <option value="2y">2 Year(1500)</option>
+  <option value="6m">6 Months(700)</option>
+  <option value="1m">1 Month(200)</option>
+</select>
+<br><br>
+<label for="tandc"> Check to agree the T&C:</label> 
+<input type="checkbox" id="tandc" name="tandc" value="true" >
+<Input type="text" width="20" id="pass" name="issearch" value="false" style="display: none;"></Input>
+<br>
+<br>
+<input type="submit" value="Register now">
+
+</form>
+</body>
+</html>
